@@ -1,0 +1,106 @@
+/*Selecting the body tag*/
+body {
+    /*Changing the background color*/
+    background-color: blanchedalmond;
+    /*Changing the font family*/
+    font-family: 'Segoe UI';
+}
+
+/*Selecting the image tag*/
+img {
+    /*Changning the width to 100%*/
+    width: 100%;
+}
+
+/*Selecting the h1 tag*/
+h1 {
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Changing the size of the font*/
+    font-size: 3.3em;
+    /*Changing the color of the text*/
+    color: #523C06;
+    /*Changing the font family*/
+    font-family: 'Franklin Gothic Medium';
+}
+
+/*Selecting the h2 tag*/
+h2 {
+    /*Assigning padding to the text*/
+    padding-left: 1%;
+    /*Changing the color of the text*/
+    color: #523C06;
+    /*Changing the size of the font*/
+    font-size: xx-large;
+}
+
+/*Selecting the p tag*/
+p {
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Assigning border to the text*/
+    border-bottom: 2px solid;
+    /*Assigning padding to the text*/
+    padding-bottom: 1%;
+    /*Changing the size of the font*/
+    font-size: 1.35em;
+}
+
+/*Selecting the div tag with an id named 'wrapper'*/
+#wrapper {
+    /*Assigning the width to 80%*/
+    width: 80%;
+    /*Assigning the height to 100%*/
+    height: 100%;
+    /*Assigning the margin of the div*/
+    margin-left: 140px;
+    margin-right: auto;
+    /*Changing the background color*/
+    background-color: antiquewhite;
+}
+
+/*Selecting the div tag with an id named 'sidebar'*/
+#sidebar {
+    /*Assigning the position to the left side*/
+    float: left;
+    /*Assigning border to the div*/
+    border: 2px solid;
+    /*Assigning margin to the div*/
+    margin-left: 1.5%;
+    /*Changing the size of the font*/
+    font-size: larger;
+
+}
+
+/*Selecting the div tag with an id named 'body-div'*/
+#body-div {
+    /*Assigning the width to 75%*/
+    width: 75%;
+    /*Assigning the position to the right side*/
+    float: right;
+    /*Aligning the text to justify*/
+    text-align: justify;
+    /*Changing the height of the lines*/
+    line-height: 27px;
+    /*Assigning margin to the div*/
+    margin-top: -8%;
+    margin-right: 10px;
+    /*Assigning border to the div*/
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    /*Assigning padding to the div*/
+    padding-top: 0.77%;
+    padding-left: 1%;
+    /*Changing the size of the font*/
+    font-size: larger;
+}
+
+/*Selecting the div tag with an id named 'main-div'*/
+#main-div::after {
+    /*Targeting the content*/
+    content: " ";
+    /*Specifying how to display the element*/
+    display: block;
+    /*Controlling the flow next to the floated elements*/
+    clear:both;
+}
