@@ -1,0 +1,161 @@
+/*Selecting the html tag*/
+html {
+    /*Defining the scroll-behavior to smooth*/
+    scroll-behavior: smooth;
+}
+
+/*Selecting the body tag*/
+body {
+    /*Changing the background color*/
+    background-color: rgb(242, 242, 242);
+    /*Changing the size of the font*/
+    font-size: larger;
+    /*Changing the size of the font*/
+    font-family: 'Segoe UI';
+    /*Assigning margin to the body*/
+    margin: 0;
+}
+
+/*Selecting the h1 tag*/
+h1 {
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Changing the size of the font*/
+    font-size: 3.4em;
+    /*Changing the font family*/
+    font-family: 'Lucida Bright';
+    /*Changing the color of the text*/
+    color: #6F3A04;
+}
+
+/*Selecting the h2 tag*/
+h2 {
+    /*Assigning border to the text*/
+    border-bottom: 2px solid;
+    /*Assigning margin to the text*/
+    margin: auto;
+    /*Changing the font family*/
+    font-family:sans-serif;
+    /*Changing the color of the text*/
+    color: #623304;
+}
+
+/*Selecting the h3 tag*/
+h3 {
+    /*Aligning the text to left*/
+    text-align: left;
+    /*Assigning margin to the text*/
+    margin-left: auto;
+}
+
+/*Selecting the h4 tag*/
+h4 {
+    /*Assigning margin to the text*/
+    margin-top: -1%;
+    /*Aligning the text to center*/
+    text-align: center;
+}
+
+/*Selecting the nav tag*/
+nav {
+    /*Changing the background color*/
+    background-color: #dcdcdc;
+    /*Changing the size of the font*/
+    font-size: 1.3em;
+
+}
+
+/*Selecting the nav ul tag*/
+nav ul {
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Setting the text decoration to none*/
+    text-decoration: none;
+    /*Setting the list style type to none*/
+    list-style-type: none;
+    /*Assigning border to the nav list*/
+    border-bottom: 2px solid;
+    /*Assigning padding to the nav list*/
+    padding-bottom: 0.4%;
+    padding-top: 0.4%;
+    /*Assigning space in between the words*/
+    word-spacing: 0.4cm;
+    /*Assigning margin to the nav list*/
+    margin-top: 0%;
+}
+
+/*Selecting the nav li tag*/
+nav li {
+    /*Setting display to inline, any height or width properties will have no effect*/
+    display: inline;
+}
+
+/*Selecting the a tag*/
+a:link, a:visited {
+    /*Changing the color of the text*/
+    color: black;
+    /*Assigning padding to the text*/
+    padding: 10px 15px;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Setting the text decoration to none*/
+    text-decoration: none;
+    /*Setting display to inline-block, any height or width properties will have an effect*/
+    display: inline-block;
+}
+
+/*Selecting the a tag with the id named 'imdb'*/
+#imdb {
+    /*Aligning the text to right*/
+    text-align: right;
+    /*Assigning border to the text*/
+    border: 2px solid;
+    /*Assigning border-radius to the border*/
+    border-radius: 10px;
+    /*Changing the color of the text*/
+    color: black;
+    /*Changing the background color of the text*/
+    background-color: #F5C518;
+    /*Changing the font family*/
+    font-family: 'Franklin Gothic Medium';
+    /*Changing the weight of the font to bolder*/
+    font-weight: bolder;
+    /*Assigning padding to the text*/
+    padding: 0.4%;
+}
+
+/*Selecting the p tag with the class named 'keyinfo'*/
+.first_para {
+    /*Changing the size of the font*/
+    font-size: 115%;
+    /*Assigning margin to the text*/
+    margin: 1%;
+    /*Aligning the text to justify*/
+    text-align: justify;
+}
+
+/*Selecting the div tag*/
+div {
+    /*Assigning border to the div*/
+    border: 2px ridge;
+    /*Assigning padding to the div*/
+    padding: 1%;
+    /*Assigning margin to the div*/
+    margin: 0.7%;
+    margin-bottom: 0%;
+    /*Changing the background color of the div*/
+    background-color: #ebebeb;
+}
+
+/*Selecting the div tag with the class named 'keyinfo'*/
+.keyinfo {
+    /*Setting the text decoration to none*/
+    text-decoration: none;
+    /*Setting the list style type to none*/
+    list-style-type: none;
+    /*Assigning space in between the words*/
+    word-spacing: 1mm;
+}
+
+
+
