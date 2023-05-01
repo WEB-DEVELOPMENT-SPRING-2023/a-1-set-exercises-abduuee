@@ -1,0 +1,61 @@
+/*Selecting the body tag*/
+body {
+    /*Changing the background color*/
+    background-color: azure;
+}
+
+/*Selecting the h3 tag*/
+h3 {
+    /*Assigning padding to the heading*/
+    padding-bottom: 5%;
+    /*Aligning the heading to center*/
+    text-align: center;
+}
+
+/*Selecting the img tag with a class named 'image_1'*/
+.image_1 {
+    /*Assigning the appropriate width to the image*/
+    width: auto;
+    /*Assigning the appropriate height to the image*/
+    height: 500px;
+    /*Specifying how to display the image*/
+    display: block;
+    /*Assigning margin to the image*/
+    margin-left: auto;
+    margin-right: auto;
+    /*Assigning padding to the image*/
+    padding-top: 3%;
+    /*Defining visual effects on the image*/
+    filter: drop-shadow(4px 4px 6px black) contrast(115%) blur(0.5px);
+}
+
+/*Selecting the img tag with a class named 'image_2'*/
+.image_2 {
+    /*Assigning the appropriate width to the image*/
+    width: auto;
+    /*Assigning the appropriate height to the image*/
+    height: 500px;
+    /*Specifying how to display the image*/
+    display: block;
+    /*Assigning margin to the image*/
+    margin-left: auto;
+    margin-right: auto;
+    /*Defining visual effects on the image*/
+    filter: drop-shadow(4px 4px 6px black) grayscale(100%);
+}
+
+/*Selecting the img tag with a class named 'image_3'*/
+.image_3 {
+    /*Assigning the appropriate width to the image*/
+    width: 333.5px;
+    /*Assigning the appropriate height to the image*/
+    height: 500px;
+    /*Specifying how to display the image*/
+    display: block;
+    /*Assigning margin to the image*/
+    margin-left: auto;
+    margin-right: auto;
+    /*Defining visual effects on the image*/
+    filter: drop-shadow(4px 4px 6px black) sepia(70%);
+}
+
