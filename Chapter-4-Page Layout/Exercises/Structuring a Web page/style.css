@@ -1,0 +1,168 @@
+/*Selecting the body tag*/
+body {
+    /*Changing the font family*/
+    font-family: Arial;
+    /*Changing the weight of the font*/
+    font-weight: 400;
+    /*Assigning the margin of the body to zero*/
+    margin: 0;
+}
+
+/*Selecting the h1 tag*/
+h1 {
+    /*Changing the font family*/
+    font-family: Tahoma;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Changing the color of the text*/
+    color: #FFFFFF;
+    /*Setting the text decoration to underline*/
+    text-decoration: underline;
+    /*Setting the offset of the text-underline*/
+    text-underline-offset: 5.7px;
+}
+
+/*Selecting the h2 tag*/
+h2 {
+    /*Changing the font family*/
+    font-family: Tahoma;
+    /*Setting the text decoration to underline*/
+    text-decoration: underline;
+    /*Setting the offset of the text-underline*/
+    text-underline-offset: 5.7px;
+}
+
+/*Selecting the nav ul tag*/
+nav ul {
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Setting the text decoration to none*/
+    text-decoration: none;
+    /*Setting the list style type to none*/
+    list-style-type: none;
+    /*Changing the color of the text*/
+    color: #FFFFFF;
+    /*Assigning space in between the words*/
+    word-spacing: 2em;
+}
+
+/*Selecting the li tag with an id named 'mospace'*/
+#nospace {
+    /*Assigning space in between the words*/
+    word-spacing: 0.09em;
+}
+
+/*Selecting the nav li tag*/
+nav li {
+    /*Setting display to inline, any height or width properties will have no effect*/
+    display: inline;    
+    /*Changing the size of the font*/
+    font-size: large;
+}
+
+/*Selecting the div tag with an id named 'head'*/
+#head {
+    /*Changing the background color*/
+    background-color: #17072b;
+    /*Assigning padding to the div*/
+    padding: 0.2%;
+}
+
+/*Selecting the footer tag*/
+footer {
+    /*Changing the background color*/
+    background-color: #8c15e9;
+    /*Aligning the text to center*/
+    text-align: center;
+    /*Changing the color of the text*/
+    color: #FFFFFF;
+    /*Assigning padding to the footer*/
+    padding: 0.5px;
+    /*Assigning margin to the footer*/
+    margin-top: 0.7%;
+}
+
+/*Selecting the div tag with an id named 'main'*/
+#main {
+    /*Assigning the appropriate width to the div*/
+    width: 100%;
+}
+
+/*Selecting the div tag with an id named 'body'*/
+#body {
+    /*Assigning the appropriate width to the div*/
+    width: 60%;
+    /*Setting minimum height to the div*/
+    min-height: 400px;
+    /*Assigning the position to the left side*/
+    float: left;
+    /*Changing the size of the font*/
+    font-size: larger;
+    /*Assigning padding to the div*/
+    padding-left: 1.5%;
+}
+
+/*Selecting the p tag with an id named 'para'*/
+#para {
+    /*Changing the size of the font*/
+    font-size: 21.5px ;
+    /*Changing the weight of the font*/
+    font-weight: 400;
+}
+
+/*Selecting the div tag with an id named 'side'*/
+#side {
+    /*Changing the background color*/
+    background-color: #172d67;
+    /*Assigning margin to the div*/
+    margin-top: 0.7%;
+    /*Assigning padding to the div*/
+    padding-left: 2%;
+    /*Changing the color of the text*/
+    color: #FFFFFF;
+    /*Changing the size of the font*/
+    font-size: larger;
+    /*Assigning the appropriate width to the div*/
+    width: 35%;
+    /*Assigning the appropriate height to the div*/
+    height: 539.5px;
+    /*Assigning the position to the right side*/
+    float: right;
+    /*Aligning the text to left*/
+    text-align: left; 
+}
+
+/*Selecting the div tag with a class named 'fix'*/
+.fix::after {
+    /*Targeting the content*/
+    content: " ";
+    /*Specifying how to display the element*/
+    display: block;
+    /*Controlling the flow next to the floated elements*/
+    clear: both;
+}
+
+/*Selecting the img tag with a class named 'welcome'*/
+.welcome {
+    /*Assigning the appropriate width to the image*/
+    width: 100%;
+}
+
+/*Selecting the img tag with a class named 'image1'*/
+.image1 {
+    /*Assigning the appropriate width to the image*/
+    width: 240px;
+    /*Assigning the appropriate height to the image*/
+    height: auto;
+    /*Assigning padding to the image*/
+    padding-top: 8%;
+
+}
+
+/*Selecting the img tag with a class named 'image2'*/
+.image2 {
+    /*Assigning the appropriate width to the image*/
+    width: 240px;
+    /*Assigning the appropriate height to the image*/
+    height: auto;    
+}
