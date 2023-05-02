@@ -1,0 +1,37 @@
+<!--Declaration for the browser to let it know it's a html page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Giving the page a title, So it displays on tab bar-->
+    <title>Petrol Calculator</title>
+    <!--Linking the CSS file to style the page-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--div tag with an id named 'calculator'--> 
+    <div id="calculator">
+    <!--h1 tag to provide a heading for the page-->
+    <h1>Petrol Calculator</h1>
+    <!--form tag is used to collect user input, also returning the function from the script file-->
+    <form onsubmit="return Calculate()">
+        <!--label tag to define a label for the form-->
+        <label for="Cost">Cost of pertrol per litre:</label><br>
+        <!--input tag to display a single-line text input field-->
+        <input type="text" id="Cost" name="Cost" value="1.72"><br>
+        <!--br tag to represent a line break-->
+        <br>
+        <label for="Litres">Litres Purchased:</label><br>
+        <input type="text" id="Litres" name="Litres" value="0"><br>
+        <!--Linking the javascript file to embed the script to the page-->
+        <script src="script.js"></script>
+        <!--p tag to define a paragraph with an id named 'totalcost'-->
+        <p id="totalcost"></p>
+        <!--button tag to define a clickable button in the page-->
+        <button type="submit" id="calculate">Calculate</button>
+    </form>
+   </div>  
+</body>
+</html> 
