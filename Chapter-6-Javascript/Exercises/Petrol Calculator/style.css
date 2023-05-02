@@ -1,0 +1,93 @@
+/*Selecting the html tag*/
+html {
+    /*Assigning the height to to the html page*/
+    height: 100%;
+}
+
+/*Selecting the body tag*/
+body {
+    /*Specifying how to display the body*/
+    display: grid;
+    /*Placing the content to the center of the body*/
+    place-content: center;
+    /*Assigning the height of the body*/
+    height: 90%; 
+    /*Changing the font family*/  
+    font-family: 'Trebuchet MS';
+    /*Aligning the text to center*/
+    text-align: center;
+}
+
+/*Selecting the div tag with an id named 'calculator'*/
+#calculator {
+    /*Assigning the width of the div*/
+    width: 75%;
+    /*Assigning the height of the div*/
+    height: auto;
+    /*Assigning margin to the div*/
+    margin: auto;
+    /*Assigning padding to the div*/
+    padding: 45px;
+    /*Changing the color of the background*/
+    background-color: #EBD980;
+    /*Assigning border to the div*/
+    border: 3px solid black;
+    /*Assigning radius to the border*/
+    border-radius: 10px;
+    /*Defining visual effects on the div*/
+    filter: drop-shadow(3px 3px 3px);
+}
+
+/*Selecting the form tag*/
+form {
+    /*Changing the color of the background*/
+    background-color: #FAF5F5; 
+    /*Assigning border to the form*/
+    border: 2px solid;
+    /*Assigning radius to the border*/
+    border-radius: 11px;
+    /*Assigning padding to the form*/
+    padding: 15px; 
+    /*Changing the size of the font*/
+    font-size: large;
+}
+
+/*Selecting the label tag*/
+label {
+    /*Assigning height in between the lines*/
+    line-height: 2em;
+}
+    
+/*Selecting the input tag*/
+input {
+    /*Assigning radius to the border*/
+    border-radius: 5px;
+    /*Assigning the height of the input*/
+    height: 15px;
+    /*Assigning the width of the input*/
+    width: 30%;
+    /*Changing the size of the font*/
+    font-size: 1.4em;
+    /*Assigning padding to the input*/
+    padding: 17px;
+    /*Aligning the text to center*/
+    text-align: center;
+}
+
+/*Selecting the button tag*/
+button {
+    /*Changing the color of the background*/
+    background-color: #84280C;
+    /*Changing the color of the text*/
+    color: white;
+    /*Assigning radius to the border*/
+    border-radius: 11px;
+    /*Assigning padding to the button*/
+    padding: 10px;
+    /*Changing the size of the font*/
+    font-size: x-large; 
+    /*Specifying how the cursor should be displayed over the button*/
+    cursor: pointer;
+}
+
+
