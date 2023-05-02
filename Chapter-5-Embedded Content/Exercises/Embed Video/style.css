@@ -1,0 +1,27 @@
+/*Selecting the body tag*/
+body {
+  /*Changing the color of the background*/
+  background-color: rgb(246, 255, 246);
+}
+
+/*Selecting the video tag*/
+video {
+  /*Assigning the appropriate width to the video*/
+  width: 50%;
+  /*Assigning the appropriate height to the video*/
+  height: 50%;
+  /*Attaching shadows to the video*/
+  box-shadow: 2px black;
+}
+
+/*Selecting the div tag*/
+div {
+  /*Specifying how to display the div*/
+  display: flex;
+  /*Aligning the flexible container's items to center*/
+  justify-content: center;
+  /*Assigning margin to the div*/
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+
