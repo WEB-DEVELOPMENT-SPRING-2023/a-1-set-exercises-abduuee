@@ -1,0 +1,34 @@
+/*Selecting the div tag with an id named 'divA'*/
+#divA {
+    /*Changing the color of the border*/
+    border-color: #8A2AE3;
+    /*Attaching shadows to the div*/
+    box-shadow: 10px 10px 10px #FE0707;
+}
+
+/*Selecting the div tag with an id named 'divB'*/
+#divB {
+    /*Assigning border to the div*/
+    border: 5px solid #00FF01;
+    /*Attaching shadows to the div*/
+    box-shadow: inset 10px 10px 10px #0A0A0A;
+}
+
+/*Selecting the div tag with an id named 'divC'*/
+#divC {
+    /*Assigning border to the div*/
+    border: 5px solid #FF8B00;
+    /*Assigning radius to the border*/
+    border-radius: 20px;
+    /*Attaching shadows to the div*/
+    box-shadow: 0 0 0 10px #0000FE, 0 0 0 20px #FE0000, 0 0 0 30px #008001;
+}
+
+/*Selecting the div tag with an id named 'divD'*/
+#divD {
+    /*Assigning border to the div*/
+    border: 4px solid #B22222;
+    /*Attaching shadows to the text*/
+    text-shadow: 4px 4px 1px #0A0A0A;
+}
+  
