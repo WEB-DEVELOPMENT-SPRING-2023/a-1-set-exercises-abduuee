@@ -1,0 +1,29 @@
+/*Selecting the div tag*/
+div {
+  /*Specifying how to display the div*/
+  display: inline-block;
+  /*Changing the font family*/
+  font-family: sans-serif;
+  /*Changing the size of the font*/
+  font-size: 20px;
+  /*Assigning margin to the div*/
+  margin: 25px;
+  /*Assigning border to the div*/
+  border: 4px solid black;
+  /*Assigning height between the lines*/
+  line-height: 100px;
+  /*Aligning the text to center*/
+  text-align: center;
+  /*Assigning the appropriate width to the div*/
+  width: 200px;
+  /*Assigning the appropriate height to the image*/
+  height: 200px;
+}
+
+/*Selecting the body tag*/  
+body {
+  /*Assigning margin to the body*/
+  margin: 100px auto;
+  /*Assigning the appropriate width to the body*/
+  width: max-content;
+}
