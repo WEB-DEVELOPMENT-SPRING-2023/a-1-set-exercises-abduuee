@@ -1,0 +1,135 @@
+/*Selecting the html tag*/
+html {
+  /*Defining the scroll-behavior to smooth*/
+  scroll-behavior: smooth;
+  /*Setting the scroll-padding*/
+  scroll-padding-top: 2%;
+}
+
+/*Selecting the body tag*/
+body {
+  /*Changing the font family*/
+  font-family: Arial, sans-serif;
+  /*Changing the size of the font*/
+  font-size: 1.2em;
+  /*Assigning margin to the body*/
+  margin: 0;
+}
+
+/*Selecting the header tag*/
+header {
+  /*Changing the background color*/
+  background-color: #024E4E;
+  /*Changing the color of the font*/
+  color: white;
+  /*Assigning padding to the header*/
+  padding: 20px;
+  /*Assigning margin to the header*/
+  margin-bottom: -2.5%;
+}
+
+/*Selecting the h1 tag*/
+h1 {
+  /*Aligning the text to center*/
+  text-align: center;
+  /*Changing the font family*/
+  font-family: 'Trebuchet MS';
+  /*Assigning margin to the text*/
+  margin-top: 0%;
+}
+
+/*Selecting the h2 tag*/
+h2 {
+  padding-left: 13.67%;
+  text-decoration: underline;
+  text-underline-offset: 17%;
+}
+
+/*Selecting the nav tag*/
+nav {
+  /*Changing the background color*/
+  background-color: #006F6F;  
+}
+
+/*Selecting the nav ul tag*/
+nav ul {
+  /*Aligning the text to center*/
+  text-align: center;
+  /*Setting the list style type to none*/
+  list-style: none; 
+  /*Assigning margin to the nav*/
+  margin: 0%;
+  /*Assigning padding to the nav*/
+  padding: 1%
+}
+
+/*Selecting the nav li tag*/
+nav li {
+  /*Setting display to inline-block, any height or width properties will have an effect*/
+  display: inline-block;
+  /*Assigning padding to the nav*/
+  padding: 0px 75px 0px 75px;
+}
+
+/*Selecting the nav a tag*/
+nav a {
+  /*Changing the color of the font*/
+  color: white;
+  /*Setting the text-decoration to none*/
+  text-decoration: none;
+}
+
+/*Selecting the p tag*/
+p {
+  /*Aligning the text to center*/
+  text-align: center;
+}
+
+/*Selecting the table tag*/
+table {
+  border-collapse: collapse;
+  /*Assigning margin to the table*/
+  margin-right: auto;
+  margin-left: auto;
+  /*Assigning width to the table*/
+  width: 80%;
+}
+
+/*Selecting the tr tag to evenly change the background color*/
+tr:nth-child(even) {
+  /*Changing the background color*/
+  background-color: #F7FFFF;
+}
+
+/*Selecting the th and td tag*/
+th, td {
+  /*Assigning border to the cell*/
+  border: 1px solid rgb(186, 186, 186);
+  /*Assigning padding to the cell*/
+  padding: 10px;
+}
+
+/*Selecting the pre tag*/
+pre {
+  /*Changing the background color*/
+  background-color: #f4f4f4;
+  /*Assigning border to the box*/
+  border: 1px solid #ddd;
+  /*Assigning padding to the box*/
+  padding: 10px;
+  /*white-space tag specifies how white-space inside an element is handled*/
+  white-space: pre-wrap;
+}
+
+/*Selecting the code tag*/
+code {
+  /*Changing the font family*/
+  font-family: monospace;
+  /*Changing the size of the font*/
+  font-size: larger;
+}
+/*Selecting the td tag with an id named 'tag'*/
+#tag {
+  /*Changing the size of the font*/
+  font-size: x-large;
+}
