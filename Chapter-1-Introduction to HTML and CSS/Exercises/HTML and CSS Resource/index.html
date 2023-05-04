@@ -1,0 +1,217 @@
+<!--Declaration for the browser to let it know it's a html page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Giving the page a title, So it displays on tab bar-->
+    <title>Reference Guide</title>
+    <!--Linking the CSS file to style the page-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--header tag to define a header bar in the page-->
+	<header>
+    <!--h1 tag to provide a heading for the page-->
+		<h1>HTML & CSS Reference Guide</h1>
+  </header>
+  <!--nav tag to define a navigation bar in the page-->
+	<nav>
+    <!--ul tag to define an unordered list-->
+		<ul>
+      <!--li tag for listing the links with a tags-->
+			<li><a href="#html">HTML Tags</a></li>
+			<li><a href="#css">CSS Properties</a></li>
+		</ul>
+	</nav>
+	 
+  <!--div tag to define a section in the page with an id named 'html'--> 
+  <div id="html">
+    <!--h2 tag to provide a sub-heading for the page-->
+    <h2>HTML Tags</h2>
+    <!--p tag to define a paragraph-->
+    <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages. Below are some of the most commonly used HTML tags:</p>
+
+    <!--table tag to create a table in the page-->
+    <table>
+      <!--tr tag to define a table row-->
+      <tr>
+        <!--th tag to define a header cell in the table-->
+        <th>Tag</th>
+        <th>Description</th>
+        <th>Example</th>
+      </tr>
+
+      <tr>
+        <!--td tag to define a standard data cell in the table-->
+        <td id="tag">&lt;html&gt;</td>
+        <td>Defines the root of an HTML document.</td>
+        <!--pre tag to represent a block of preformatted text-->
+        <!--code tag to define a piece of computer code-->
+        <td id="example"><pre><code>&lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;/html&gt;</code></pre></td></tr>
+    
+      <tr>
+        <td id="tag">&lt;head&gt;</td>
+        <td>Defines the head of an HTML document, which contains information about the document.</td>
+        <td id="example">
+          <pre><code>&lt;head&gt;<br>&lt;title&gt;Page Title&lt;/title&gt;<br>&lt;/head&gt;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">&lt;body&gt;</td>
+        <td>Defines the body of an HTML document, which contains the content of the document.</td>
+        <td id="example"><pre><code>&lt;body&gt;<br>&lt;h1&gt;Heading&lt;/h1&gt;<br>&lt;p&gt;Paragraph&lt;/p&gt;<br>&lt;/body&gt;</code></pre></td>
+      </tr>
+      
+      <tr>
+        <td id="tag">&lt;h1&gt; to &lt;h6&gt;</td>
+        <td>Defines headings of different levels, with &lt;h1&gt; being the most important and &lt;h6&gt; being the least important.</td>
+        <td id="example"><pre><code>&lt;h1&gt;Main Heading&lt;/h1&gt;<br>&lt;h2&gt;Sub-heading&lt;/h2&gt;<br>&lt;h3&gt;Sub-sub-heading&lt;/h3&gt;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">&lt;p&gt;</td>
+        <td>Defines a paragraph.</td>
+        <td id="example"><pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">&lt;a&gt;</td>
+        <td>Defines a hyperlink, which can be used to link to another page or resource.</td>
+        <td id="example"><pre><code>&lt;a href="https://www.example.com"&gt;Link&lt;/a&gt;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">&lt;img&gt;</td>
+        <td>Defines an image.</td>
+        <td id="example"><pre><code></code>&lt;img src="image.jpg" alt="Image"&gt;</code></pre></td>
+      </tr>
+      
+      <tr>
+        <td id="tag">&lt;ul&gt;</td>
+        <td>Defines an unordered list.</td>
+        <td id="example"><pre><code>&lt;ul&gt;<br>&lt;li&gt;Item 1&lt;/li&gt;<br>&lt;li&gt;Item 2&lt;/li&gt;<br>&lt;/ul&gt;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">&lt;ol&gt;</td>
+        <td>Defines an ordered list.</td>
+        <td id="example"><pre><code>&lt;ol&gt;<br>&lt;li&gt;Item 1&lt;/li&gt;<br>&lt;li&gt;Item 2&lt;/li&gt;<br>&lt;/ol&gt;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">&lt;table&gt;</td>
+        <td>Defines a table.</td>
+        <td id="example"><pre><code>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;Header 1&lt;/th&gt;<br>&lt;th&gt;Header 2&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;tr&gt;<br>&lt;td&gt;Cell 1&lt;/td&gt;<br>&lt;td&gt;Cell 2&lt;/td&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">&lt;form&gt;</td>
+        <td>Defines a form for user input.</td>
+        <td id="example"><pre><code>&lt;form action="/submit" method="post"&gt;<br>&lt;label for="name"&gt;Name:&lt;/label&gt;<br>&lt;input type="text" id="name" name="name"&gt;<br>&lt;input type="submit" value="Submit"&gt;<br>&lt;/form&gt;</code></pre></td>
+      </tr>
+
+    </table>
+  </div>
+  <br>
+
+  <!--div tag to define a section in the page with an id named 'css'--> 
+  <div id="css">
+    <h2>CSS Properties</h2>
+    <p>CSS (Cascading Style Sheets) is used to style HTML documents. Below are some of the most commonly used CSS properties:</p>
+    <table>
+      <tr>
+        <th>Property</th>
+        <th>Description</th>
+        <th>Example</th>
+      </tr>
+
+      <tr>
+        <td id="tag">color</td>
+        <td>Sets the color of text.</td>
+        <td id="example"><pre><code>color: red;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">background-color</td>
+        <td>Sets the background color of an element.</td>
+        <td id="example"><pre><code>background-color: blue;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">font-size</td>
+        <td>Sets the size of text.</td>
+        <td id="example"><pre><code>font-size: 16px;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">font-family</td>
+        <td>Sets the font family used for text.</td>
+        <td id="example"><pre><code>font-family: Arial, sans-serif;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">margin</td>
+        <td>Sets the margin around an element.</td>
+        <td id="example"><pre><code>margin: 10px;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">padding</td>
+        <td>Sets the padding inside an element.</td>
+        <td id="example"><pre><code>padding: 5px;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">border</td>
+        <td>Sets the border around an element.</td>
+        <td id="example"><pre><code>border: 1px solid black;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">text-align</td>
+        <td>Sets the horizontal alignment of text.</td>
+        <td id="example"><pre><code>text-align: center;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">display</td>
+        <td>Sets how an element is displayed (e.g. block, inline, flex, etc.).</td>
+        <td id="example"><pre><code>display: block;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">float</td>
+        <td>Sets the positioning of an element to the left or right of its container.</td>
+        <td id="example"><pre><code>float: left;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">width</td>
+        <td>Sets the width of an element.</td>
+        <td id="example"><pre><code>width: 50%;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">height</td>
+        <td>Sets the height of an element.</td>
+        <td id="example"><pre><code>height: 100px;</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">background-image</td>
+        <td>Sets the background image of an element.</td>
+        <td id="example"><pre><code>background-image: url('image.jpg');</code></pre></td>
+      </tr>
+
+      <tr>
+        <td id="tag">opacity</td>
+        <td>Sets the opacity of an element.</td>
+        <td id="example"><pre><code>opacity: 0.5;</code></pre></td>
+      </tr>
+      
+    </table>
+  </div>
+</body>
+</html>
