@@ -16,7 +16,7 @@ video {
 
 /*Selecting the div tag*/
 div {
-  /*Specifying how to display the div*/
+  /*Specifying on how to display the div*/
   display: flex;
   /*Aligning the flexible container's items to center*/
   justify-content: center;
